@@ -1,0 +1,131 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin: 0px;
+    font-weight: 600;
+}
+p{
+    font-weight: 200;
+    color:  hsl(229, 6%, 66%);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(0, 0%, 98%);
+    padding: 20px;
+}
+.section-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hedding{
+    font-weight: 200;
+    color:  hsl(229, 6%, 66%);
+}
+.section-one h1{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.section-one p{
+    text-align: center;
+}
+
+.section-two{
+    /* display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.section-two p{
+    padding: 0px;
+    font-size: 13px;
+}
+.section-two h1{
+    font-weight: 400;
+}
+.service{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    width: 20vw;
+}
+.section-two img{
+    width: 40px;
+    height: 40px;
+    float: right;
+    margin-top: 20px;
+}
+.section-two .middel{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+#supervisor{
+    border-top: 5px solid hsl(180, 62%, 55%);
+    border-radius: 5px;
+}
+#team-builder{
+    border-top: 5px solid hsl(0, 78%, 62%);
+    border-radius: 5px;
+}
+#karma{
+    border-top: 5px solid hsl(34, 97%, 64%);
+    border-radius: 5px;
+}
+#calculator{
+    border-top: 5px solid hsl(212, 86%, 64%);
+    border-radius: 5px;
+}
+@media screen and (max-width: 700px){
+    body{
+        font-family: 'Poppins', sans-serif;
+        font-size: 12px;
+        margin: 0px;
+        font-weight: 400;
+    }
+    p{
+        font-weight: 200;
+    }
+    main{
+        padding: 10px;
+    }
+    .hedding{
+        font-weight: 200;
+        color:  hsl(229, 6%, 66%);
+    }    
+        
+    .section-two{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .section-two p{
+        padding: 0px;
+        font-size: 12px;
+    }
+    .section-two h1{
+        font-weight: 400;
+    }
+    .service{
+        width: 75vw;
+    }
+    /* .section-two .middel{
+        margin: 0px 15px;
+        
+    } */
+    .section-two img{
+        width: 30px;
+        height: 30px;
+    }
+}
+
+
